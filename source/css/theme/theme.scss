@@ -1,0 +1,45 @@
+.main-content {
+  padding-top: 32px;
+}
+
+.sidebar {
+  background: #fafafa;
+  padding: 32px 20px;
+}
+
+.large-centered {
+  float: none;
+  margin: 0 auto;
+  }
+
+.pad-top {
+  
+}
+
+.form-group {
+  white-space: nowrap;
+  input, label {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  input {width: 85%;}
+  label {
+    margin: 0 0 1rem 0.75rem;
+  }
+}
+
+.demo {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 3rem 0.9375rem 0.5rem;
+  background: #fafafa;
+  &:after {
+    content: 'DEMO';
+    display: inline-block;
+    position: absolute;
+    top: 1rem;
+    color: #ccc;
+    font-size: 0,75rem;
+  }
+}

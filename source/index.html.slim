@@ -1,0 +1,40 @@
+---
+title:  
+---
+
+= partial "layouts/partials/header"
+section.main-content
+  .row
+    .small-4.large-centered.columns
+      .form-group
+        input type="number" id="input-rem-base" name="input-rem-base" min="1" value="16" placeholder="rem base" tabindex="3"
+        label for="input-rem-base" px
+
+      .form-group
+        input type="number" id="input-px" name="input-px" min="1" value="14" placeholder="px" tabindex="1" autofocus="true"
+        label for="input-px" px
+
+      .form-group      
+        input type="number" id="input-em" name="input-em" value="0.875" placeholder="em" tabindex="2"
+        label for="input-em" em
+
+  .row
+    .small-6.large-centered.columns.demo
+      / h3 Demo
+      p id="rem-demo"
+        | The rem font-size unit is similar to em, only instead of cascading it's always relative to the root (html) element. This has pretty good modern browser support, it's just IE 8 and down we need to provide px fallbacks for.
+
+
+  .row
+    .small-6.large-centered.columns
+      h3 Info
+      ul 
+        li: a href="http://snook.ca/archives/html_and_css/font-size-with-rem" Font sizing with rem
+        li: a href="http://css-tricks.com/snippets/css/less-mixin-for-rem-font-sizing/" Mixins for Rem Font Sizing
+        li: a href="http://davidwalsh.name/rem-px-browser-function-sass" REM to PX Browser Function with Sass
+        li: a href="http://gregrickaby.com/using-the-golden-ratio-and-rems/" Web Typography: Using The Golden Ratio and REM’s
+        li: a href="http://caniuse.com/rem" Can I use rem units?
+
+
+
+= partial "layouts/partials/footer"
